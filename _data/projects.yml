@@ -1,0 +1,47 @@
+- name: Jobs Posting Matcher
+  url: https://medium.com/jobs-posting-matcher/jobs-posting-matcher-4ee695b25902
+  image: job_posting_matcher/job_posting_matcher_400x300-thumbnail.png
+  description: Connect job seekers with their ideal positions by matching skills and preferences with job listings.
+  date: 2023
+
+- name: Extracting data with LLM OpenAI
+  url: https://medium.com/funanue-portfolio/extracting-data-from-text-using-llm-openai-eb0a274157f0
+  image: data_extraction_using_openai/Screenshot_4.png
+  description: Harness the power of AI to automatically extract structured data from unstructured sources.
+  date: 2023
+
+- name: Software & Partner Selection Tool
+  url: https://medium.com/@funanue/software-partner-selection-scoring-bd00bc9399e1
+  image: partners_selection_scoring/Screenshot_6.png
+  description: Simplify complex decision-making by quantifying the suitability of software solutions and partners.
+  date: 2023
+
+- name: Commercial funnel from user’s interactions
+  url: https://medium.com/@funanue/unleashing-growth-with-the-commercial-leads-funnel-29139fb49f31
+  image: funnel_leads/Screenshot_1.png
+  description: Optimize B2B lead management with a streamlined system, ensuring you never miss a valuable opportunity.
+  date: 2022
+
+- name: Companies Vertical Search Engine
+  url: '#'
+  image: coming_soon_200x100-thumbnail.png
+  description: A specialized search engine tailored to industry needs, providing efficient access to relevant company data.
+  date: 2023
+
+- name: Web Page Logo Detector
+  url: https://medium.com/@funanue/web-page-logo-detector-161db3a8a481
+  image: web_page_logo_detector/Screenshot_4.png
+  description: Identify and locate logos on webpages, aiding brand recognition and analysis.
+  date: 2022
+
+- name: Companies Recommendation Model
+  url: '#'
+  image: coming_soon_200x100-thumbnail.png
+  description: Elevate partnerships with our Companies Recommendation Model. Find your ideal collaborators effortlessly.
+  date: 2022
+
+- name: Advanced Web Scraper
+  url: https://medium.com/@funanue/advanced-web-scraper-86ce45b579a9
+  image: advanced_web_scraper/Screenshot_1.png
+  description: An automated tool for extracting valuable data from websites, making information gathering effortless.
+  date: 2021
