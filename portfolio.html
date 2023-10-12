@@ -1,0 +1,110 @@
+---
+---
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+	<head>
+		<title>Portfolio</title>
+		{% include scripts.html %}
+		
+	</head>
+	<body class="is-preload">
+		
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+			
+			<!-- Intro -->
+			<!--{% include intro.html %}-->
+			
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Portfolio</a>
+			</header>
+			
+			<!-- Nav -->
+			{% include nav.html portfolio="active" %}
+			
+			<!-- Main -->
+			<div id="main">
+				
+				<!-- Featured Post -->
+				<article class="post featured">
+					<header class="major">
+						<span class="date">Septmber 28, 2023</span>
+						<h2><a href="https://digitalpartners.ai" target="_blank">DigitalPartners<br /></a></h2>
+						<p>Is the project that I feel most proud of, I am the Co-Founder and CTO of the company. 
+							DigitalPartners is a Data platform that provides B2B information tools and services where
+							companies seeking technology services can connect and engage with
+							partners and solution providers.</p>
+					</header>
+					<a href="https://digitalpartners.ai" target="_blank" class="image main">
+						<img src="images/portfolio/digitalpartners/digitalpartners.gif" alt="" />
+					</a>
+					<ul class="actions special">
+						<li><a href="#" class="button large">Full Story</a></li>
+					</ul>
+				</article>
+				
+				<!-- Posts -->
+				<section class="posts">
+					{% for project in site.data.projects %}
+						<article>
+							<header>
+								<span class="date">{{ project.date }}</span>
+								<h2><a href="{{ project.url }}">{{ project.name }}<br /></a></h2>
+							</header>
+							<a href="{{ project.url }}" class="image fit" target="_blank">
+								<img src="images/portfolio/{{ project.image }}" alt=""/>
+							</a>
+							<p>{{ project.description }}</p>
+							<ul class="actions special">
+								<li><a href="{{ project.url }}" class="button" target="_blank">View More</a></li>
+							</ul>
+						</article>
+					{% endfor %}
+				</section>
+				
+				<!-- Footer -->
+				<!--<footer>
+					<div class="pagination">
+						<a href="#" class="previous">Prev</a>
+						<a href="#" class="page active">1</a>
+						<a href="#" class="page">2</a>
+						<a href="#" class="page">3</a>
+						<span class="extra">&hellip;</span>
+						<a href="#" class="page">8</a>
+						<a href="#" class="page">9</a>
+						<a href="#" class="page">10</a>
+						<a href="#" class="next">Next</a>
+					</div>
+				</footer>-->
+
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+			</footer>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul><li>&copy; Francisco Unanue</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
